@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suma Kaugsai | Aprende el Idioma Inga (Santiago, Putumayo)</title>
+  
+  <!-- Tipografía Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Hoja de Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       ENCABEZADO Y HERO CULTURAL (Pensamiento Inga)
+       ========================================================================= -->
+  <header class="header-banner">
+    <div class="app-container" style="padding-bottom: 0;">
+      <nav class="header-nav">
+        <div class="brand-badge">
+          <span>🌿</span>
+          <span>Pensamiento Inga</span>
+        </div>
+        <div class="location-tag">
+          <span>📍</span>
+          <span>Santiago, Putumayo (Valle de Sibundoy)</span>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <h1 class="hero-title">Suma Kaugsai</h1>
+        <p class="hero-motto">
+          <span>✨</span>
+          <em>"Pensar bonito es vivir bonito"</em>
+        </p>
+        <p class="hero-description">
+          Plataforma interactiva para la revitalización lingüística y el aprendizaje cultural del idioma Inga. 
+          Explora la sabiduría ancestral mediante pronunciación pausada nativa, práctica de voz interactiva 
+          y tutoría con Inteligencia Artificial fundamentada en la verdad comunitaria.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       CONTENIDO PRINCIPAL
+       ========================================================================= -->
+  <main class="app-container">
+
+    <!-- Pestañas de Navegación de la Aplicación -->
+    <nav class="main-tabs" aria-label="Secciones del curso">
+      <button class="tab-button active" data-view="view-aprender">
+        <span>📖</span> Aprender Vocabulario
+      </button>
+      <button class="tab-button" data-view="view-profesor">
+        <span>🤖</span> Profesor Inga Virtual (RAG)
+      </button>
+    </nav>
+
+    <!-- =======================================================================
+         VISTA 1: MÓDULO APRENDER (Tarjetas, Buscador y Filtros)
+         ======================================================================= -->
+    <section id="view-aprender" class="view-panel active">
+      
+      <!-- Barra de Herramientas: Búsqueda y Filtros por Categoría -->
+      <div class="toolbar-container">
+        <div class="search-box-wrapper">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Buscar por término Inga, español o significado..."
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="category-filter-group" role="group" aria-label="Filtros de categoría">
+          <button class="filter-pill active" data-category="todos">Todos</button>
+          <button class="filter-pill" data-category="filosofia">Filosofía</button>
+          <button class="filter-pill" data-category="saludos">Saludos</button>
+          <button class="filter-pill" data-category="naturaleza">Naturaleza</button>
+          <button class="filter-pill" data-category="familia">Familia</button>
+        </div>
+      </div>
+
+      <!-- Cuadrícula Dinámica de Tarjetas -->
+      <div id="cards-container" class="cards-grid">
+        <!-- Skeleton / Indicador de carga inicial -->
+        <div class="loading-skeleton" style="grid-column: 1/-1;">
+          <div class="spinner"></div>
+          <p>Conectando con el semillero de conocimiento de Santiago, Putumayo...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         VISTA 2: CHAT CON EL PROFESOR INGA VIRTUAL (RAG CERO-ALUCINACIÓN)
+         ======================================================================= -->
+    <section id="view-profesor" class="view-panel">
+      <div class="chat-section-container">
+        
+        <!-- Barra Lateral Informativa -->
+        <aside class="chat-info-sidebar">
+          <h3 class="sidebar-title">
+            <span>🪶</span> Tutor de Tradición Oral
+          </h3>
+          <p class="sidebar-desc">
+            Este asistente utiliza una arquitectura <strong>RAG de Control Estricto (Zero-Hallucination)</strong>. 
+            Sus respuestas provienen exclusivamente de los registros comunitarios oficiales de Santiago, Putumayo.
+          </p>
+
+          <div class="sidebar-badge">
+            🔒 <strong>Regla Comunitaria:</strong> Si preguntas por una palabra no documentada en el registro, el sistema protegerá la autenticidad lingüística notificándote su ausencia.
+          </div>
+
+          <p class="prompt-suggestions-title">Consultas Sugeridas:</p>
+          <div class="prompt-chips-list">
+            <button class="prompt-chip">"¿Qué significa Suma Kaugsai?"</button>
+            <button class="prompt-chip">"¿Cómo se dice buenos días?"</button>
+            <button class="prompt-chip">"¿Quién es el Taita en la familia?"</button>
+            <button class="prompt-chip">"¿Cómo se saluda en la noche?"</button>
+            <button class="prompt-chip">"¿Qué es el agua sagrada Yaku?"</button>
+            <button class="prompt-chip" style="border-left: 3px solid #EF4444;">"¿Cómo se dice avión o computadora?"</button>
+          </div>
+        </aside>
+
+        <!-- Ventana de Diálogo -->
+        <div class="chat-main-window">
+          
+          <!-- Encabezado del Chat -->
+          <div class="chat-header">
+            <div class="chat-tutor-profile">
+              <div class="tutor-avatar">🌿</div>
+              <div>
+                <div class="tutor-name">Profesor Inga Virtual</div>
+                <div class="tutor-status">
+                  <span class="status-dot"></span>
+                  <span>En línea • Guardián del Suma Kaugsai</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Historial de Mensajes -->
+          <div id="chat-messages" class="chat-messages-area">
+            <div class="message-bubble message-bot">
+              <div class="bot-tag">✨ Profesor Inga Virtual</div>
+              <div>
+                ¡Suma puncha! Te doy la bienvenida al espacio de diálogo del <strong>Suma Kaugsai</strong>. 
+                Pregúntame cómo traducir palabras, sus pronunciaciones o el significado cultural que resguardan 
+                nuestros mayores en Santiago, Putumayo.
+              </div>
+            </div>
+          </div>
+
+          <!-- Barra de Entrada y Micrófono -->
+          <div class="chat-input-bar">
+            <input 
+              type="text" 
+              id="chat-user-input" 
+              class="chat-input" 
+              placeholder="Pregunta en español o Inga (ej. ¿Qué significa Suma puncha?)..."
+              autocomplete="off"
+            >
+            <button 
+              id="btn-chat-mic" 
+              class="btn-chat-mic" 
+              title="Dictar pregunta con tu voz"
+              aria-label="Dictar pregunta con tu voz"
+            >
+              🎙️
+            </button>
+            <button 
+              id="btn-chat-send" 
+              class="btn-chat-send"
+              aria-label="Enviar pregunta"
+            >
+              <span>Enviar</span>
+              <span>➔</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       MODAL DE PRÁCTICA FONÉTICA Y EVALUACIÓN DE VOZ
+       ========================================================================= -->
+  <div id="practice-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="practice-card">
+      <button class="btn-modal-close" id="btn-modal-close" aria-label="Cerrar modal">&times;</button>
+      
+      <span style="font-size: 0.8rem; font-weight: 700; color: var(--green-leaf); text-transform: uppercase;">Laboratorio de Pronunciación</span>
+      <h2 id="practice-term" class="practice-term-title">Término Inga</h2>
+      <div id="practice-phonetic-text" class="practice-phonetic">Guía Fonética</div>
+
+      <p style="font-size: 0.9rem; color: var(--text-secondary);">
+        Escucha primero el sonido pausado, presiona el micrófono y pronuncia la palabra con claridad:
+      </p>
+
+      <!-- Botón de Micrófono Animado -->
+      <div class="mic-action-container">
+        <button id="btn-mic-practice" class="btn-mic-pulse" aria-label="Activar micrófono para practicar">
+          🎙️
+        </button>
+        <span id="mic-status-text" class="mic-status-text">
+          Haz clic en el micrófono para empezar a hablar
+        </span>
+      </div>
+
+      <!-- Cuadro de Retroalimentación Pedagógica -->
+      <div id="voice-result-box" class="voice-result-box">
+        <div class="accuracy-score">
+          <span>Precisión Pedagógica:</span>
+          <span id="accuracy-percentage">0%</span>
+        </div>
+        <div class="accuracy-bar-wrapper">
+          <div id="accuracy-bar-fill" class="accuracy-bar-fill"></div>
+        </div>
+        <p id="feedback-message" style="font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem;"></p>
+        <p id="recognized-transcript" class="recognized-text"></p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       PIE DE PÁGINA COMUNITARIO
+       ========================================================================= -->
+  <footer class="community-footer">
+    <div class="app-container" style="padding-bottom: 0;">
+      <p>
+        Iniciativa pedagógica para el fortalecimiento de la lengua Inga • <strong>Pensamiento Inga</strong>
+      </p>
+      <p style="margin-top: 0.4rem; font-size: 0.8rem;">
+        Fundamentado en el principio de <em>"Suma Kaugsai" (Pensar bonito es vivir bonito)</em> • Santiago, Putumayo.
+      </p>
+      <p id="stat-word-count" style="margin-top: 0.4rem; font-weight: 700; color: var(--green-primary);"></p>
+    </div>
+  </footer>
+
+  <!-- Script Lógico -->
+  <script src="script.js"></script>
+</body>
+</html>

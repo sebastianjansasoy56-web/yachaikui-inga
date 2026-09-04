@@ -1,0 +1,110 @@
+[
+  {
+    "id": "inga-01",
+    "categoria": "filosofia",
+    "espanol": "El buen vivir / Pensar bonito es vivir bonito",
+    "inga": "Suma kaugsai",
+    "tipo": "frase",
+    "pronunciacion_guia": "su-ma kawg-sai",
+    "significado_cultural": "Principio supremo de la cosmovisión Inga. Plantea que la salud, la armonía comunitaria y el equilibrio con el territorio nacen de cultivar pensamientos limpios y bondadosos en el corazón."
+  },
+  {
+    "id": "inga-02",
+    "categoria": "filosofia",
+    "espanol": "Vivir con regocijo y alegría interior",
+    "inga": "Kusikui kaugsai",
+    "tipo": "frase",
+    "pronunciacion_guia": "ku-si-kwi kawg-sai",
+    "significado_cultural": "La alegría comunitaria no es un estado pasajero, sino una postura ética ante la existencia. Celebrar el tejido social, la minga y la música compartida."
+  },
+  {
+    "id": "inga-03",
+    "categoria": "saludos",
+    "espanol": "Buenos días / Que tu día sea bueno y luminoso",
+    "inga": "Suma puncha",
+    "tipo": "frase",
+    "pronunciacion_guia": "su-ma pun-cha",
+    "significado_cultural": "Deseo cotidiano para que la jornada amanezca en claridad, permitiendo que la palabra y el trabajo cotidiano honren la luz de la vida."
+  },
+  {
+    "id": "inga-04",
+    "categoria": "saludos",
+    "espanol": "Buenas noches / Que la noche te brinde descanso y paz",
+    "inga": "Suma tuta",
+    "tipo": "frase",
+    "pronunciacion_guia": "su-ma tu-ta",
+    "significado_cultural": "Saludo crepuscular que abre paso a la reflexión de los sueños y al descanso del espíritu bajo la protección de los ancestros."
+  },
+  {
+    "id": "inga-05",
+    "categoria": "saludos",
+    "espanol": "Buen camino / Que tu sendero esté libre de tropiezos",
+    "inga": "Suma ñambi",
+    "tipo": "frase",
+    "pronunciacion_guia": "su-ma ñam-bi",
+    "significado_cultural": "Bendición de despedida y tránsito. Desea no solo protección en el camino físico entre las montañas del Putumayo, sino rectitud en las decisiones de la vida."
+  },
+  {
+    "id": "inga-06",
+    "categoria": "naturaleza",
+    "espanol": "Sol / Padre dador de luz y calor",
+    "inga": "Inti",
+    "tipo": "palabra",
+    "pronunciacion_guia": "in-ti",
+    "significado_cultural": "Fuerza astral sagrada que despierta la tierra, orienta los ciclos agrícolas del Valle de Sibundoy y nutre la energía vital (Samai)."
+  },
+  {
+    "id": "inga-07",
+    "categoria": "naturaleza",
+    "espanol": "Tierra / Madre tierra fértil",
+    "inga": "Allpa",
+    "tipo": "palabra",
+    "pronunciacion_guia": "all-pa",
+    "significado_cultural": "Territorio vivo, cuerpo común que provee el alimento y acoge la memoria de los abuelos. No se posee; se cuida y se reverencia en reciprocidad."
+  },
+  {
+    "id": "inga-08",
+    "categoria": "naturaleza",
+    "espanol": "Agua sagrada / Manantial de vida",
+    "inga": "Yaku",
+    "tipo": "palabra",
+    "pronunciacion_guia": "ya-ku",
+    "significado_cultural": "Elemento purificador y conductor de memoria. Los ríos y cascadas del Putumayo son considerados espacios de medicina, limpieza y renovación espiritual."
+  },
+  {
+    "id": "inga-09",
+    "categoria": "familia",
+    "espanol": "Madre / Mujer sabia y protectora",
+    "inga": "Mama",
+    "tipo": "palabra",
+    "pronunciacion_guia": "ma-ma",
+    "significado_cultural": "Pilar del hogar y transmisora de la lengua materna, los cantos y el conocimiento de las plantas medicinales en la cocina y la chagra."
+  },
+  {
+    "id": "inga-10",
+    "categoria": "familia",
+    "espanol": "Padre / Sabedor ancestral / Guía espiritual",
+    "inga": "Taita",
+    "tipo": "palabra",
+    "pronunciacion_guia": "tai-ta",
+    "significado_cultural": "Título de profundo respeto en el pueblo Inga. Refiere tanto al padre de familia como al médico tradicional y líder espiritual que custodia la memoria y la medicina sagrada."
+  },
+  {
+    "id": "inga-11",
+    "categoria": "naturaleza",
+    "espanol": "Huerto tradicional / Espacio sagrado de siembra y medicina",
+    "inga": "Chagra",
+    "tipo": "palabra",
+    "pronunciacion_guia": "cha-gra",
+    "significado_cultural": "Espacio de soberanía alimentaria y laboratorio de vida donde conviven plantas alimenticias, medicinales y espirituales bajo el cuidado familiar."
+  },
+  {
+    "id": "inga-12",
+    "categoria": "filosofia",
+    "espanol": "Aliento vital / Respiración y energía del espíritu",
+    "inga": "Samai",
+    "tipo": "palabra",
+    "pronunciacion_guia": "sa-mai",
+    "significado_cultural": "La energía vital invisible que anima todo cuerpo vivo. Soplar el samai es transmitir fuerza, bendición y curación en los rituales ancestrales."
+  }
+]
